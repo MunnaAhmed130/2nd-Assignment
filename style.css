@@ -7,6 +7,10 @@
 img{
     width: 100%;
 }
+p{
+    line-height: 1.7;
+    color: #6c6c6c;
+}
 /* header start */
 
 header{
@@ -83,20 +87,25 @@ nav li{
 }
 /* header end */
 
+/* card start here */
+
+.card-container{
+    width: 1050px;
+}
+
 .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin: 60px auto;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
 .card{
-    padding: 20px;
-    padding-bottom: 30px;
+    padding: 15px;
+    padding-bottom: 40px;
     box-shadow: 0px 0px 40px  rgba(0, 0, 0, 0.19);
 }
-
-
 
 
 h3.card_title{
@@ -104,3 +113,63 @@ h3.card_title{
     font-weight: 700;
     padding: 5px 0;
 }
+
+/* card end here */
+
+/* highlight start */
+.highlight_container{
+    width: 1160px;
+
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlight_left{
+    width: 100%;
+}
+
+.highlight_left p{
+    width: 75%;
+    margin-bottom: 30px;
+}
+
+.highlight_left h2{
+    font-size: 3rem;
+}
+
+
+.highlight_template{
+    width: 570px;
+}
+
+
+/* highlight end */
+/* footer start */
+footer{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icon{
+    color:gray;
+    background-color: rgba(128, 128, 128, 0.185) ;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20rem ;
+    line-height: 2rem;
+    margin: 10px ;
+}
+
+
+footer p{
+    font-size: 18px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+/* footer end */
