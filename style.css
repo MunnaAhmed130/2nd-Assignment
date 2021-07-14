@@ -223,6 +223,8 @@ footer p{
         width: 100%;
     }
 
+    /* header start */
+
     nav{
         display: none;
     }
@@ -265,6 +267,9 @@ footer p{
         margin-left: 15px;
         padding: 50px 0 ;
     }
+
+    /* header end */
+    /* card section start */
     
     .card-container{
         width: 100%;
@@ -290,6 +295,9 @@ footer p{
         padding: 5px 0;
     }
 
+    /* card section end */
+    /* gallery section start */
+
     #gallery h2{
         color: rgba(0, 0, 0, 0.849);
         text-align: center;
@@ -311,6 +319,9 @@ footer p{
         box-shadow: 0px 0px 40px  rgba(0, 0, 0, 0.19);
     
     }
+
+    /* gallery section end */
+    /* highlight section start */
     
     .highlight_container{
         width: 100%;
@@ -339,6 +350,9 @@ footer p{
     .highlight_left h2{
         font-size: 1.5rem;
     }
+
+    /* hightlight section end */
+    /* footer start */
 
     footer{
         width: 100%;
@@ -369,5 +383,7 @@ footer p{
         padding-top: 10px;
         padding-bottom: 30px;
     }
+
+    /* footer end */
     
 }
