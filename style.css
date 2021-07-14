@@ -206,8 +206,8 @@ footer p{
     }
 
     .container_left{
-        width: 100%;
-        margin-left: 20px;
+        width: 90%;
+        margin-left: 20;
     }
 
     .container h1{
@@ -215,12 +215,13 @@ footer p{
         color: white;
         padding-top: 40px;
         padding-bottom: 25px;
+        padding-left: 20px;
     }
 
     .link-button{
         background-color: #E02C6D;
         padding: 10px 25px;
-        
+        margin-left: 20px;
     }
 
     .banner{
